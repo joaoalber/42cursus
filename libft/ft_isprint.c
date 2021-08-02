@@ -6,13 +6,11 @@
 /*   By: joalbert <joalbert@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/28 19:22:42 by joalbert          #+#    #+#             */
-/*   Updated: 2021/07/28 19:37:29 by joalbert         ###   ########.fr       */
+/*   Updated: 2021/08/02 20:11:05 by joalbert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_isprint(int c)
 {
-	if (c >= 32 && c <= 126)
-		return (1);
-	return (0);
+	return (c >= 32 && c <= 126);
 }

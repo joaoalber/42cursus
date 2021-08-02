@@ -6,13 +6,11 @@
 /*   By: joalbert <joalbert@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/27 20:25:36 by joalbert          #+#    #+#             */
-/*   Updated: 2021/07/27 20:33:38 by joalbert         ###   ########.fr       */
+/*   Updated: 2021/08/02 20:46:38 by joalbert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_isalpha(int c)
 {
-	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
-		return (1);
-	return (0);
+	return ((c >= 97 && c <= 122) || (c >= 65 && c <= 90));
 }

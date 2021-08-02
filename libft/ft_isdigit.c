@@ -6,13 +6,11 @@
 /*   By: joalbert <joalbert@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/27 20:26:15 by joalbert          #+#    #+#             */
-/*   Updated: 2021/07/27 20:33:42 by joalbert         ###   ########.fr       */
+/*   Updated: 2021/08/02 20:14:36 by joalbert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_isdigit(int c)
 {
-	if (c >= '0' && c <= '9')
-		return (1);
-	return (0);
+	return (c >= '0' && c <= '9');
 }
